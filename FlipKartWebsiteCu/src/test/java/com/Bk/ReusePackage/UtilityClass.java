@@ -202,6 +202,10 @@ public class UtilityClass {
 	}
 	
 	
+	public void actionMethod(WebElement element) {
+		getAction().contextClick(element).perform();
+	}
+	
 	
 	
 	//*************************************Window Handles***********************************************************\\
